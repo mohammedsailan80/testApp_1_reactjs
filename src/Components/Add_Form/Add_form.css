@@ -1,0 +1,46 @@
+form{
+    text-align: Left !important;
+    float: center !important;
+    width: 30%;
+    margin:auto auto;
+}
+input{
+    text-align: left !important;
+    width: 100% !important;
+    margin:5px 0 !important;
+    height: 35px;
+    padding-left: 10px;
+    font-size:  13px;
+    font-weight: bold ;
+    border: none;
+    border-radius: 10px !important;
+
+}
+input:focus{
+    outline: none !important;
+}
+.input_details{
+height: 70px;
+}
+
+button.add{
+    background-color: #479bee;
+    color: #20466b;
+    width: 100px;
+    margin: 5px 0;
+    padding: 8px 0;
+    font-size:  17px;
+    font-weight: bold ;
+    border: none;
+    border-radius: 50px !important;
+}
+/* The responsive web device*/
+/* The Small screen device*/
+@media screen and (max-width: 480px) {
+    form {width: 98%;}
+}
+/* The Medium screen device*/
+
+@media (max-width: 991px) and (min-width: 480px) {
+    form {width: 50%;}
+}

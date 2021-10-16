@@ -1,0 +1,45 @@
+.details{
+    background-color: #dae0e5;
+    color:#043152 ;
+    width: 30%;
+    margin: auto;
+    border: none;
+    border-radius:10px !important;
+    padding: 5px 10px;
+    text-align: left !important;
+    padding-bottom: 7px !important;
+}
+.details .text{padding-right: 10px; margin-left: -10px;}
+.details .text p{
+    margin-top:-10px;
+    margin-bottom:9px;
+    color: #757373 !important;
+    font-size:15px;
+}
+.edit button ,.x-button button{
+ width: 0px;
+ height: 0px;
+ background-color:#dae0e5 !important;
+ border: none;
+ margin-top: 0px;
+}
+.buttons_col{
+    margin-left: 0px;
+}
+
+/* The responsive web device*/
+/* The Small screen device*/
+@media screen and (max-width: 480px) {
+    .details{width: 98%;}
+    .details .text{padding-right: 20px;  margin-left: 0px}
+    .details .text h5{font-size:21px;}
+    .details .text p{font-size:16px;}
+    .buttons_col{
+        margin-left: -10px;
+    }
+}
+/* The Medium screen device*/
+@media (max-width: 991px) and (min-width: 480px) {
+    .details{width: 50%; padding-bottom: 7px !important;}
+    .details .text{padding-right: 20px;}
+}
